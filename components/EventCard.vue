@@ -1,6 +1,5 @@
 <template>
   <nuxt-link :to="'/event/' + event.id">
-    <h1>Ivan</h1>
     <div class="-shadow">
       <span class="eyebrow">@{{ event.time }} on {{ parsedDate }}</span>
       <h4 class="title">{{ event.title }}</h4>
